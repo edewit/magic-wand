@@ -1,0 +1,9 @@
+name: MagicWand
+main: ch.nerdin.minecraft.plugins.wand.MagicWand
+version: 1.0
+commands:
+   wand:
+      description: Spawn a magic wand.
+      usage: /<command> <name e.g LeapWand>
+      permission: MagicWand.basic
+      permission-message: You don't have <permission>
